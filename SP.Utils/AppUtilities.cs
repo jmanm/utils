@@ -53,13 +53,13 @@ namespace SP
 
     public class Logger
     {
-        private string filePath;
+        private readonly string filePath;
         public SmtpClient Mailer { get; private set; } = new SmtpClient();
         public long MaxLogFileSize { get; set; } = Int64.MaxValue;
 
         public Logger(string path)
         {
-            this.filePath = path;
+            filePath = path;
         }
 
         public void LogError(Exception error, string message = null)
