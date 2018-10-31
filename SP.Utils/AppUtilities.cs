@@ -1,21 +1,19 @@
-﻿using System;
+﻿using SP.Containers;
+using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Diagnostics;
 using System.IO;
-using System.Net;
 using System.Net.Mail;
-using System.Text;
 
 namespace SP
 {
     public static class AppUtilities
     {
-        public static Dictionary<string, string> ParseArgs(string[] args, params string[] acceptableFlags)
+        public static StringTable ParseArgs(string[] args, params string[] acceptableFlags)
         {
             bool IsFlag(string arg) => (arg.Length == 2 && (arg[0] == '/' || arg[0] == '-')) || (arg.Length > 2 && arg.StartsWith("--"));
 
-            var result = new Dictionary<string, string>();
+            var result = new StringTable();
             for (int i = 0; i < args.Length; i++)
             {
                 var arg = args[i];

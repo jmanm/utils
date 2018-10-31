@@ -4,6 +4,21 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <AssemblyName>SP.Utils</AssemblyName>
     <RootNamespace>SP.Utils</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Jamin Menter</Authors>
+    <Company>Snarling Puma Software</Company>
+    <Copyright>Copyright (c) 2018 Jamin Menter</Copyright>
+    <Description>Various utility classes. Documentation can be found in the XML doc comments.</Description>
+    <PackageLicenseUrl>https://github.com/jmanm/utils/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/jmanm/utils</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jmanm/utils</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\**" />
+    <EmbeddedResource Remove="Properties\**" />
+    <None Remove="Properties\**" />
+  </ItemGroup>
 
 </Project>

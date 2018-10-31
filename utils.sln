@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{27B55F93-8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP.Utils.Test", "test\SP.Utils.Test\SP.Utils.Test.csproj", "{879E8C02-3C23-411F-93A0-D768F0EE5D98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SP.Utils", "SP.Utils\SP.Utils.csproj", "{0FE73F18-ED58-40AD-8601-895C1C79C70B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SP.Utils.netcore20", "SP.Utils\SP.Utils.netcore20.csproj", "{9DE030CE-EDE0-45B2-BD9E-19941A7D47EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,10 @@ Global
 		{879E8C02-3C23-411F-93A0-D768F0EE5D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{879E8C02-3C23-411F-93A0-D768F0EE5D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{879E8C02-3C23-411F-93A0-D768F0EE5D98}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0FE73F18-ED58-40AD-8601-895C1C79C70B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0FE73F18-ED58-40AD-8601-895C1C79C70B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0FE73F18-ED58-40AD-8601-895C1C79C70B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0FE73F18-ED58-40AD-8601-895C1C79C70B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DE030CE-EDE0-45B2-BD9E-19941A7D47EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE030CE-EDE0-45B2-BD9E-19941A7D47EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE030CE-EDE0-45B2-BD9E-19941A7D47EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE030CE-EDE0-45B2-BD9E-19941A7D47EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
